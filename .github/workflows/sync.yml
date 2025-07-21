@@ -34,7 +34,7 @@ jobs:
         cd gki
 
         GIT_USER="zentrozx"
-        TARGET_REPO="zentrozx/android12-5.10"
+        TARGET_REPO="zentrozx/gki-android12-5.10"
         GIT_URL="https://${GIT_USER}:${GH_TOKEN}@github.com/${TARGET_REPO}.git"
 
         # Clone target repo to temp dir
